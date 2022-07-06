@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./dist/output.css"
+    <link rel="stylesheet" href="./dist/output.css">
 </head>
 <body>
-    <div id="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a><div id="LoginButton" class=" w-auto h-auto bg-slate-200"> <p>Login</p> </div></a>
+    <div id="navbar" class=" bg-slate-200 w-screen h-16 flex flex-row align-bottom justify-evenly rounded-md sticky mt-2">
+        <div class=" flex flex-row gap-x-2">
+        <image src="./Images/logo.svg">
+        <h2 class=" font-semibold text-lg pt-4 text-black">Neighbor Network</h2>
+        </div>
+        <div class=" flex flex-row gap-x-2  pt-2">
+            <a href="./pages/Login.html"><div id="LoginButton" class=" btn btn-primary"> <p>Login</p> </div></a>
+            <a><div id="LoginButton" class=" btn btn-primary"> <p>Sign Up</p> </div></a>
+        </div>
     </div>
 </body>
 </html>
