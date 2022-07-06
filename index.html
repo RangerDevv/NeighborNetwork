@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./dist/output.css">
 </head>
 <body>
-    <div id="navbar" class=" bg-slate-200 w-screen h-16 flex flex-row align-bottom justify-evenly rounded-md sticky mt-2">
+    <div id="navbar" class=" bg-slate-200 w-screen h-16 flex flex-row align-bottom justify-evenly rounded-md sticky top-0 z-50 mt-2">
         <div class=" flex flex-row gap-x-2">
         <image src="./Images/logo.svg">
         <h2 class=" font-semibold text-lg pt-4 text-black">Neighbor Network</h2>
@@ -17,6 +17,62 @@
         <div class=" flex flex-row gap-x-2  pt-2">
             <a href="./pages/Login.html"><div id="LoginButton" class=" btn btn-primary"> <p>Login</p> </div></a>
             <a><div id="LoginButton" class=" btn btn-primary"> <p>Sign Up</p> </div></a>
+        </div>
+    </div>
+    <div id="Maincontent" class="flex justify-center pt-24">
+        <div class=" flex flex-col md:grid md:grid-cols-3 gap-16">
+            <div class="card w-96 h-96 shadow-xl bg-slate-900">
+                <figure><img src="./Images/exercise logo.svg" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Competetive Exercise
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>How long can you do an excersize? Compete with your community and get the top time!</p>
+                  <div class="card-actions justify-end">
+                  <a href="#" class="btn btn-primary hover:btn-success">Lets Go!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card w-96 h-96 shadow-xl bg-slate-900">
+                <figure><img class=" pt-5" src="./Images/Q&A.svg" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Q&A
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>Do you have any question? Ask anything, homework, cooking recipies, answers, notes, anything!</p>
+                  <div class="card-actions justify-end">
+                  <a href="#" class="btn btn-primary hover:btn-success">Lets Go!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card w-96 h-96 shadow-xl bg-slate-900">
+                <figure><img class=" pt-4" src="./Images/QOTD.svg" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Question of the day
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>New questions are posted everyday. React with the stars to complete the QOTD.</p>
+                  <div class="card-actions justify-end">
+                  <a href="#" class="btn btn-primary">Lets Go!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card w-96 h-96 shadow-xl bg-slate-900">
+                <figure><img src="./Images/exercise logo.svg" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Events/Parties
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>Find any events or parties anyone has arranged in your community!</p>
+                  <div class="card-actions justify-end">
+                  <a href="#" class="btn btn-primary hover:btn-success">Lets Go!</a>
+                  </div>
+                </div>
+              </div>
         </div>
     </div>
 </body>
