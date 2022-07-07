@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Register</title>
     <link rel="stylesheet" href="../dist/output.css"">
 </head>
 <body>
     <div class=" flex justify-center pt-7">
-        <h1 class=" text-white text-7xl">Welcome Back!</h1>
+        <h1 class=" text-white text-7xl">🎉HELLO!🎉</h1>
     </div>
     <div class=" flex justify-center pt-36">
         <div class=" bg-indigo-800 w-96 h-96 flex flex-col justify-center rounded-lg gap-y-9 pl-7">
             <input type="text" class="bg-white outline-none w-80 text-black h-12 text-center text-xl rounded-lg" placeholder="Email">
             <input type="password" class="bg-white outline-none w-80 text-black h-12 text-center text-xl rounded-lg" placeholder="Password">
+            <input type="password" class="bg-white outline-none w-80 text-black h-12 text-center text-xl rounded-lg" placeholder="Confirm Password">
             <div class=" flex flex-row gap-x-32">
                 <a href="../index.html"><button class=" btn btn-error w-24 ">Back</button></a>
-                <button class=" btn btn-success w-24 ">Login</button>
+                <label for="ButtonS" class=" btn btn-success w-24 ">Register</label>
             </div>
         </div>
     </div>
+    <input type="checkbox" id="ButtonS" class="modal-toggle" />
+<div class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <h3 class="font-bold text-lg">SORRY</h3>
+    <p class="py-4">This feature is not yet available</p>
+    <div class="modal-action">
+      <label for="ButtonS" class="btn btn-error">Ok.</label>
+    </div>
+  </div>
+</div>
 </body>
 </html>
