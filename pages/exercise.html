@@ -8,19 +8,35 @@
     <link rel="stylesheet" href="../dist/output.css">
 </head>
 <body>
-    <div id="Timer" class=" flex justify-center flex-col gap-y-11">
-        <div class=" text-4xl flex justify-center"><p>YOUR TIME</p></div>
+    <div class=" ml-3 mt-3 flex justify-center h-auto w-16 rounded-md bg-red-700"><a class=" text-center text-white" href="../index.html">Go back</a></div>
+    <div id="Timer" class=" flex justify-center flex-col gap-y-8">
+        <div class=" text-4xl flex justify-center">
+            <p>YOUR TIME</p>
+        </div>
         <div class=" flex flex-row justify-center">
-            <p class=" text-8xl" id="Hour">00</p>
+            <p class=" text-8xl" id="Hour">0</p>
             <p class=" text-8xl">:</p>
-            <p class=" text-8xl" id="Minute">00</p>
+            <p class=" text-8xl" id="Minute">0</p>
             <p class=" text-8xl">:</p>
-            <p class=" text-8xl" id="Second">00</p>
+            <p class=" text-8xl" id="Second">0</p>
         </div>
         <div class=" flex justify-center gap-x-6">
             <button onclick="Start()" class=" btn btn-success w-24 " id="Start">Start</button>
             <button onclick="Stop()" class=" btn btn-error w-24 " id="Stop">Stop</button>
             <button onclick="Reset()" class=" btn btn-info w-24 " id="Reset">Reset</button>
+        </div>
+    </div>
+    <p class=" text-5xl font-mono text-center pt-5">🏆LEADERBOARD🏆</p>
+    <div id="Leaderboard" class="flex justify-center pt-10">
+        <div class=" flex flex-col gap-y-3 text-center w-96 h-80 bg-slate-900 rounded-xl pt-3">
+            <p class=" text-yellow-500 text-base">Ranger: 2:23:6</p>
+            <p class=" text-slate-500 text-base">Onowoni: 2:15:36</p>
+            <p class=" text-amber-900 text-base">Kamau: 2:13:36</p>
+            <p class=" text-base">John Doe: 1:57:04</p>
+            <p class=" text-base">Jane Doe: 1:56:04</p>
+            <p class=" text-base">Areepod: 1:30:05</p>
+            <p class=" text-base">pyro_hedgehog: 1:20:04</p>
+            <p class=" text-base">Fora: 00:56:59</p>
         </div>
     </div>
 </body>
